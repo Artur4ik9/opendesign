@@ -1,12 +1,12 @@
 <?php
 
 if(isset($_POST['apply-name']) && isset($_POST['apply-phone']) && isset($_POST['apply-email']) && isset($_POST['apply-text'])) { 
-  $to = 'fleetStreet186@yandex.ru';
-  $subject = 'Заявка с сайта FleetStreet186';
+  $to = 'email для приема';
+  $subject = 'Тип письма';
   $message = '
         <html>
             <head>
-                <title>Заявка с сайта FleetStreet186</title>
+                <title>Заголовок письма</title>
             </head>
             <body>
                 <p><b>ФИО:</b> '.$_POST['apply-name'].'</p>
